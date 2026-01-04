@@ -6,12 +6,12 @@ The goal of this project is to transform raw Airbnb data into clean, standardize
 
 [Data Flow](https://samsung-crm.com/mena/KSA/251225_LC/Data-Flow.jpg) 
 
-⸻
+
 ## 📂 Data Source
-• Dataset: Riyadh Airbnb
-• Source: Kaggle
-• Data Engineer: [Mohammed Alsubaie](https://www.kaggle.com/datasets/mohammedalsubaie/riyadh-airbnb)
-⸻
+- Dataset: Riyadh Airbnb
+- Source: Kaggle
+- Data Engineer: [Mohammed Alsubaie](https://www.kaggle.com/datasets/mohammedalsubaie/riyadh-airbnb)
+
 
 ## 🔁 ETL Architecture
 The ETL process follows a structured data flow:
@@ -22,7 +22,7 @@ Source → SQL Server → Power BI
 • Loaded into SQL Server as raw tables
 • Stored as-is with no transformations
 • Batch processing using full load & truncate/insert
-⸻
+
 
 ## 2️⃣ Transform
 Data cleaning and transformation were performed entirely using SQL, including:
@@ -40,23 +40,23 @@ Data cleaning and transformation were performed entirely using SQL, including:
 The result is a set of cleaned and standardized tables ready for analytics.
 
 [Data Transform](https://samsung-crm.com/mena/KSA/251225_LC/Data-Transformation.jpg)
-⸻
+
 
 ## 3️⃣ Load
 • Final datasets exposed as SQL Views
 • Views represent business-ready data
 • No additional load required
 • Optimized for Power BI consumption
-⸻
+
 
 ## 🧱 Data Model
 • Flat and aggregated tables
 • Fact-style table
-⸻
+
 
 ## 📊 Power BI
 • Coming soon
-⸻
+
 
 ## 🛠 Tools & Technologies
 • SQL Server
@@ -64,7 +64,7 @@ The result is a set of cleaned and standardized tables ready for analytics.
 • Power BI
 • Kaggle
 • GitHub
-⸻
+
 
 ## 🎯 Key Learning Outcomes
 • Building a real-world ETL pipeline
@@ -72,21 +72,21 @@ The result is a set of cleaned and standardized tables ready for analytics.
 • Applying data cleaning best practices
 • Translating raw data into business-ready datasets
 • Designing analytics-friendly SQL views
-⸻
+
 
 ## 📌 Next Steps
 • Enhance dashboards with advanced DAX measures
 • Add time-based analysis
 • Optimize performance with indexing
 • Expand dataset with additional Airbnb attributes
-⸻
+
 
 ## 🙌 Credits
 • Dataset: Kaggle
 • Analysis & ETL: Bilal Mohamed [Bilal Mohamed](https://www.linkedin.com/in/bilal-mohamed-909b95201/) 
 • Data Engineer: [Mohammed Alsubaie](https://www.kaggle.com/datasets/mohammedalsubaie/riyadh-airbnb)
 
-⸻
+
 
 ## 📂 Repository Structure
 ```
