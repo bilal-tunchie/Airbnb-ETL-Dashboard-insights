@@ -4,7 +4,7 @@
 This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline built to prepare Airbnb data for Power BI dashboards and business insights.
 The goal of this project is to transform raw Airbnb data into clean, standardized, and business-ready datasets using SQL Server, then consume the data in Power BI for visualization and analysis.
 
-[Data Flow](https://samsung-crm.com/mena/KSA/251225_LC/Data-Flow.jpg) 
+![Data Flow](https://samsung-crm.com/mena/KSA/251225_LC/Data-Flow.jpg) 
 
 
 ## 📂 Data Source
@@ -39,7 +39,7 @@ Data cleaning and transformation were performed entirely using SQL, including:
 - ✔️ Validating business logic (rooms, beds, revenue calculations)
 The result is a set of cleaned and standardized tables ready for analytics.
 
-[Data Transform](https://samsung-crm.com/mena/KSA/251225_LC/Data-Transformation.jpg)
+![Data Transform](https://samsung-crm.com/mena/KSA/251225_LC/Data-Transformation.jpg)
 
 
 ## 3️⃣ Load
