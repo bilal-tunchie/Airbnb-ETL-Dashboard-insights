@@ -10,8 +10,6 @@ The goal of this project is to transform raw Airbnb data into clean, standardize
 ## 📂 Data Source
 - Dataset: Riyadh Airbnb
 - Source: Kaggle
-- Data Engineer: [Mohammed Alsubaie](https://www.kaggle.com/datasets/mohammedalsubaie/riyadh-airbnb)
-
 
 ## 🔁 ETL Architecture
 The ETL process follows a structured data flow:
@@ -90,28 +88,26 @@ The result is a set of cleaned and standardized tables ready for analytics.
 
 ## 📂 Repository Structure
 ```
-data-warehouse-project/
+Airbnb-ETL-Dashboard-insights/
+├── docs/                                            # Project documentation and architecture details
+│   ├── Data Flow.drawio                             # Draw.io file shows the project's architecture
+│   ├── Data Transform.drawio                        # Draw.io file shows the project's ETL Exapmles
+│   ├── Data-Flow.jpg                                # Data Flow image
+│   ├── Data-Transformation.jpg                      # Data Transformation image
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── Data/                                            # Raw and Cleaned datasets used for the project
+│   ├── Cleaned Data                                 # Cleaned datasets used for the project
+│   ├── Uncleaned Data                               # Raw datasets used for the project
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
 │
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+├── scripts/                                         # SQL scripts for ETL and transformations
+│   ├── 1-import_raw_data.sql/                       # Scripts for extracting and loading raw data
+│   ├── 2-Fact_table.sql/                            # Scripts for cleaning and transforming data
+│   ├── 3-price_items.sql/                           # Scripts for cleaning and transforming data
+│   ├── 4-priceItems_offers_discounts_taxes.sql/     # Scripts for cleaning and transforming data
+│   ├── 5-final_fact_view.sql/                       # Scripts for creating analytical models
+│                          
+└── README.md                                        # Project overview and instructions
 ```
 ---
