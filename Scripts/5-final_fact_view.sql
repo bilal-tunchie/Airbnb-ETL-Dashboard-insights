@@ -110,4 +110,10 @@ CREATE VIEW airbnb.airbnb AS (
 )
 
 
-SELECT * FROM airbnb.airbnb;
+-- Final Views 
+
+-- // Fact View for all listed properties
+SELECT * FROM airbnb.airbnb;      
+
+-- // Dinmension View for all amenities per property
+SELECT *  FROM airbnb.amenities;  
